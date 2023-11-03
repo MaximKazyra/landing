@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", serif;
+}
+
+.section-1 {
+    width: 100%;
+    background-image: url("./images/Rectangle_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+}
+
+.menu_list {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    gap: 36px;
+}
+
+.search_button {
+    background-color: inherit;
+    border-width: 0;
+}
+
+.description {
+    color: white;
+    font-size: 96px;
+    padding-top: 60px;
+}
+
+.button_2 {
+    font-size: 17px;
+    width: 180px;
+    height: 60px;
+    background-color: white;
+    font-weight: 600;
+    color: #1D1D1F;
+    border: 0;
+}
+
+.section_info {
+    padding-bottom: 230px;
+}
+
+.description_2 {
+    margin-bottom: 50px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.section_2 {
+    margin-top: 190px;
+    margin-bottom: 190px;
+}
+
+.information {
+    padding-top: 190px;
+    display: flex;
+    width: 100%;
+}
+
+.left_section {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 50%;
+}
+
+.right_section {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.sity_h3 {
+    margin-top: 0;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.sity_p {
+    font-size: 16px;
+}
+
+.count {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.count_description {
+    font-size: 16px;
+    color: #838383;
+    font-weight: 400;
+}
+
+.hz {
+    position: relative;
+}
+
+.video_player {
+    display: flex;
+    justify-content: center;
+    padding-top: 190px;
+    width: 1200px;
+    height: 630px;
+}
+
+.video_swith {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 455px;
+    left: 560px;
+    width: 100px;
+    height: 100px;
+}
+
+.photo_description {
+    width: 100%;
+    padding-top: 190px;
+}
+
+.first_sect {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+}
+
+.second_sect {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.the_note{
+    font-size: 16px;
+    color: #1D1D1F;
+}
+
+.images_1 {
+    width: 570px;
+    height: 400px;
+}
+
+.images_2 {
+    width: 570px;
+    height: 400px;
+}
+
+.title {
+    display: flex;
+    font-size: 24px;
+    color: #838383;
+}
+
+.button_3 {
+    font-size: 17px;
+    width: 180px;
+    height: 60px;
+    background-color: #1D1D1F;
+    font-weight: 600;
+    color: white;
+    border: 0;
+    margin-top: 40px;
+}
+.description_name{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-top: 190px;
+    gap: 20px;
+}
+
+.desc_paragraph{
+    font-size: 36px;
+    color: #1D1D1F;
+}
+
+.desc_title{
+    font-size: 16px;
+    color: #838383;
+}
+
+.desc_job_title{
+    font-size: 16px;
+    color: #1D1D1F;
+    padding-bottom: 190px;
+}
+
+.images_fonth{
+    width: 1600px;
+    height: 900px;
+    flex-shrink: 0;
+}
+
+.colage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right_arrow{
+    display: flex;
+
+}
+
+.left_arrow{
+    display: flex;
+}
+
+.list{
+    padding-top: 190px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.list_style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.style_left{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.style_right{
+    font-size: 16px;
+    color: #838383;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.create_line{
+    border: none;
+    color: #1D1D1F;
+    width: 1200px;
+    height: 1px;
+}
